@@ -1,8 +1,8 @@
-# Diccionario JSON
-Pequeño programa en Python para gestionar una base de datos de pares clave-valor almacenado en un fichero JSON. El programa permite interactuar con dicha base de datos, facilitando la consulta, creación, modificación y eliminación de entradas.
+# JSON dictionary
+Python program for managing a key-value database, stored as a JSON file. This program can interact with the database, allowing you to query, create, modify and delete entries.
 
-# Utilización
+# Usage
 
-`python3 diccionariojson.py [nombre_archivo.json]`
+`python3 jsondictionary.py [file_name.json]`
 
-Si no se especifica el nombre del archivo, se usará por defecto `archivo.json`. En caso de que no exista un archivo con ese nombre, el programa lo creará de cero.
+If file name is not set, default `file.json` will be used. If there is not a file with that name yet, the program will create it.
